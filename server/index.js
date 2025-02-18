@@ -4,6 +4,7 @@ const cors = require('cors')
 const User = require('./models/user.model')
 const mongoose = require('mongoose')
 app.use(cors())
+//up
 app.use(express.json())
 
 mongoose.connect('mongodb+srv://pramitbhatia25:Pram%40197058@cluster0.ln3zxwd.mongodb.net/?retryWrites=true&w=majority')
